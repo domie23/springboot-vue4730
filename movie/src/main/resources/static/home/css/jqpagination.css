@@ -1,0 +1,36 @@
+#pager {
+    padding:20px 0;
+    display:inline-block;
+}
+#pager ul.pages
+{
+    display: block;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0;
+}
+#pager ul.pages li
+{
+    list-style: none;
+    float: left;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    padding:3px 10px;
+}
+#pager ul.pages li:hover
+{
+   background-color: #4DD0C8;
+   color:White;
+}
+#pager ul.pages li.pgEmpty
+{
+   color:#bbb;
+   cursor:default;
+   background:url(" ");
+}
+#pager ul.pages li.pgCurrent
+{
+    color:white;
+    background-color: #4DD0C8;
+}

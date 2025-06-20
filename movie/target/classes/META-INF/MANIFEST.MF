@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: base
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: chen
+Implementation-Vendor-Id: com.yuanlrc
+Build-Jdk: 1.8.0_60
+Implementation-URL: http://www.example.com
+Created-By: Maven Integration for Eclipse
+

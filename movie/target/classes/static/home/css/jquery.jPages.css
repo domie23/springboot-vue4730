@@ -1,0 +1,37 @@
+.jpage {
+    display:inline-block;
+	padding:30px 0;
+}
+
+.jpage a {
+	float:left;
+    padding:3px 11px;
+    margin:0 5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.jpage a:hover {
+	background-color: #4DD0C8;
+	color: #fff;
+}
+
+.jpage a.jp-previous { margin-right: 15px; }
+.jpage a.jp-next { margin-left: 15px; }
+
+.jpage a.jp-current, a.jp-current:hover { 
+	color: #fff;
+    background-color: #4DD0C8!important;
+}
+
+.jpage a.jp-disabled, a.jp-disabled:hover {
+	color: #bbb;
+}
+
+.jpage a.jp-current, a.jp-current:hover,
+.jpage a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+	background: none;
+}
+
+.jpage span { margin: 0 5px; }
